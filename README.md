@@ -20,6 +20,25 @@ This project demonstrates practical data engineering, dimensional modelling, dat
 
 ---
 
+## 🚧 Development Progress
+
+### Phase 1 – Warehouse Design
+- Designed Star Schema (fact + dimension tables)
+- Created PostgreSQL schema using SQL
+- Implemented primary and foreign key constraints
+
+### Phase 2 – Dimension ETL
+- Loaded `dim_practice` from NHS practice reference file
+- Loaded `dim_medication` from chemical reference dataset
+- Generated `dim_date` from PERIOD transformation logic
+
+### Phase 3 – In Progress
+- Implementing high-performance fact table loader
+- Adding batch processing for large dataset handling
+- Implementing SQL-based analytical queries
+
+Each phase is committed incrementally to GitHub to document development progression.
+
 
 
 \##  System Architecture
